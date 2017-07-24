@@ -1,0 +1,42 @@
+/* line 1, /Users/sylvain/Work/ruby-bordeaux/www/source/stylesheets/all.css.scss */
+html, body {
+  min-height: 100vh;
+  margin: 0; }
+
+/* line 6, /Users/sylvain/Work/ruby-bordeaux/www/source/stylesheets/all.css.scss */
+body {
+  background-color: white;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh; }
+
+/* line 20, /Users/sylvain/Work/ruby-bordeaux/www/source/stylesheets/all.css.scss */
+.subtitle {
+  margin-top: -20px;
+  margin-bottom: 40px; }
+
+/* line 24, /Users/sylvain/Work/ruby-bordeaux/www/source/stylesheets/all.css.scss */
+.logo {
+  width: 80%;
+  max-width: 300px; }
+
+/* line 29, /Users/sylvain/Work/ruby-bordeaux/www/source/stylesheets/all.css.scss */
+.slack-link {
+  vertical-align: middle;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #CCC;
+  padding: 8px 14px 6px;
+  box-shadow: 0 0px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  color: #333; }
+  /* line 38, /Users/sylvain/Work/ruby-bordeaux/www/source/stylesheets/all.css.scss */
+  .slack-link:hover {
+    background: #F4F4F4; }
+  /* line 41, /Users/sylvain/Work/ruby-bordeaux/www/source/stylesheets/all.css.scss */
+  .slack-link svg {
+    vertical-align: middle; }
