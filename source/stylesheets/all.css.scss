@@ -1,14 +1,44 @@
-// General Style Variables
-@import "config/variables";
-@import "config/bootstrap_variables";
+html, body {
+  min-height: 100vh;
+  margin: 0;
+}
 
-// External Frameworks
-@import "bootstrap";
-@import "font-awesome-sprockets";
-@import "font-awesome";
+body {
+  background-color: white;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
 
-// Our CSS
-@import "layout/*";
-@import "components/*";
-@import "pages/*";
-@import "vendor/*";
+.subtitle {
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+.logo {
+  width: 80%;
+  max-width: 300px;
+}
+
+.slack-link {
+  vertical-align: middle;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #CCC;
+  padding: 8px 14px 6px;
+  box-shadow: 0 0px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  color: #333;
+  &:hover {
+    background: #F4F4F4;
+  }
+  svg {
+    vertical-align: middle;
+  }
+}
